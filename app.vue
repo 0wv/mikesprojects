@@ -1,21 +1,10 @@
 <template>
-  <!-- nav bar -->
   <div class="bg-[#EDEFEF] h-screen flex flex-col font-inter">
-    <div class="p-16 ml-10 flex justify-between items-center">
-      <logo />
-      <div class="nav-links font-semibold text-[#2B3035] text-xl space-x-10 mr-10 flex items-center">
-        <a class="portfolio" href="">Portfolio</a>
-        <a class="about-me" href="">About Me</a>
-        <div class="contact-me flex items-center">
-          <button class="Btn">
-            <div class="sign">
-              <email class="emailSvg" />
-            </div>
-            <div class="text">Contact Me</div>
-          </button>
-        </div>
-      </div>
+    <NavBar />
+    <!-- carousel  -->
+    <div class="container mx-auto flex">
+      <ImageCarousel />
     </div>
+    <!-- /carousel -->
   </div>
-  <!-- /nav bar -->
 </template>
