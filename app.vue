@@ -1,8 +1,8 @@
 <template>
-  <div class="bg-[#EDEFEF] h-screen flex flex-col font-inter">
+  <div class="h-screen flex flex-col font-inter container mx-auto">
     <NavBar />
     <!-- carousel  -->
-    <div class="container mx-auto flex">
+    <div class="container">
       <ImageCarousel />
     </div>
     <!-- /carousel -->

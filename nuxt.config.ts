@@ -7,6 +7,9 @@ export default defineNuxtConfig({
   vite: {
     plugins: [tailwindcss()],
   },
+  modules: [
+    '@element-plus/nuxt'
+  ],
   app: {
     head: {
       script: [

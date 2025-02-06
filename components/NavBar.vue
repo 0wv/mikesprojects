@@ -1,5 +1,5 @@
 <template>
-  <div class="p-16 ml-10 flex justify-between items-center">
+  <div class="py-13 flex justify-between items-center">
     <logo />
     <div
       class="nav-links font-semibold text-[#2B3035] text-xl space-x-10 mr-10 flex items-center"
